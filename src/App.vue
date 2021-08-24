@@ -1,14 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <Sound/>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
+import Sound from './components/Sound.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
+    Sound,
     HelloWorld
   }
 }
